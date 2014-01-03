@@ -36,20 +36,20 @@
 
     <!-- Lead -->
 
-    <div class="row-alt">
-      <section class="container lead">
+    <section class="row-alt">
+      <div class="container lead">
 
         <h1>Schedule</h1>
 
         <p class="lead-in">The conference opens with amazing workshops and is followed by two days of incredible talks and keynotes. All of which are facilitated by industry leading experts.</p>
 
-      </section>
-    </div>
+      </div>
+    </section>
 
     <!-- Main content -->
 
-    <div class="row">
-      <section class="container">
+    <section class="row">
+      <div class="container">
 
         <!-- Workshops -->
 
@@ -348,8 +348,8 @@
           </tbody>
         </table>
 
-      </section>
-    </div>
+      </div>
+    </section>
 
     <!-- Footer -->
 
@@ -370,62 +370,6 @@
 
       </div>
     </footer>
-
-    <!-- GRID: TO BE REMOVED -->
-
-    <div class="jquery-grid">
-      <div class="grid jquery-grid-container">
-        <div class="col-1-3"><div class="jquery-grid-col"></div></div><!--
-        --><div class="col-1-3"><div class="jquery-grid-col"></div></div><!--
-        --><div class="col-1-3"><div class="jquery-grid-col"></div></div>
-      </div>
-    </div>
-
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
-    <script type="text/javascript">
-      (function($){
-        var line_height = 22;
-        var line_height_offset = (line_height - 1) + 'px';
-        line_height = line_height + 'px';
-        var jQueryGridContainerCss = {
-          backgroundImage: 'linear-gradient(transparent ' + line_height_offset + ', rgba(255, 0, 0, .6) ' + line_height_offset + ', rgba(255, 0, 0, .6) ' + line_height + ')',
-          backgroundSize: line_height + ' ' + line_height
-        };
-        $(function(){
-          $('.jquery-grid-container').css(jQueryGridContainerCss);
-          var $jQueryGrid = $('.jquery-grid');
-          $(document).on('keydown', function(event) {
-            if (event.which === 27) {
-              event.preventDefault();
-              $jQueryGrid.toggle();
-            }
-          });
-        });
-      }).call(this, jQuery);
-    </script>
-
-    <style type="text/css">
-      .jquery-grid {
-        display: none;
-        height: 2000%;
-        position: absolute;
-        top: 0;
-        width: 100%;
-        z-index: 9999;
-      }
-      .jquery-grid-container,
-      .col-1-3,
-      .jquery-grid-col {
-        height: 100%;
-      }
-      .jquery-grid-col {
-        background-color: rgba(255, 0, 0, .4);
-      }
-
-    </style>
-
-    <!-- END GRID: TO BE REMOVED -->
 
   </body>
 </html>
