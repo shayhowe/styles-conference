@@ -170,9 +170,6 @@ h5 {
 h1, h3, h4, h5, p {
   margin-bottom: 22px;
 }
-.text-offset {
-  color: #a9b2b9;
-}
 
 /*
   ========================================
@@ -394,33 +391,41 @@ iframe {
   line-height: 44px;
   padding-top: 0;
 }
-td.schedule-title {
+.schedule-title,
+.schedule-time {
   padding-right: 45px;
   text-align: right;
 }
-td.schedule-time {
+.schedule-offset,
+.schedule a:hover,
+.schedule .schedule-time {
   color: #a9b2b9;
+}
+.schedule .schedule-time {
   font-size: 14px;
   font-weight: 400;
-  padding: 22px 45px 0 0;
-  text-align: right;
+  padding-top: 22px;
   text-transform: uppercase;
   width: 20%;
 }
-td.schedule-interval {
+.schedule-interval,
+.schedule-track {
   border-top: 1px solid #dfe2e5;
 }
-td.schedule-track {
-  width: 40%;
-}
-td.schedule-track-1 {
-  padding-right: 15px;
-}
-td.schedule-track-2 {
-  padding-left: 15px;
+.schedule a {
+  color: #888;
 }
 .schedule h4 {
   margin-bottom: 0;
+}
+.schedule-track {
+  width: 40%;
+}
+.schedule-track-1 {
+  padding-right: 15px;
+}
+.schedule-track-2 {
+  padding-left: 15px;
 }
 
 /*
