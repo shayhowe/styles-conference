@@ -184,6 +184,9 @@ a {
 a:hover {
   color: #a9b2b9;
 }
+p a {
+  border-bottom: 1px solid #dfe2e5;
+}
 iframe {
   display: block;
 }
@@ -351,6 +354,9 @@ iframe {
 
 .speaker {
   margin-bottom: 44px;
+}
+.speaker-last {
+  margin-bottom: 0;
 }
 .speaker-info {
   border: 1px solid #dfe2e5;
