@@ -56,7 +56,7 @@ table {
 body {
   background: #293f50;
   color: #888;
-  font: 300 16px/22px "Lato", "Open Sans" Verdana, Helvetica, sans-serif;
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /*
@@ -147,6 +147,9 @@ body {
 h1, h2, h3, h4, h5 {
   color: #648880;
 }
+h1, h3, h4, h5, p {
+  margin-bottom: 22px;
+}
 h1 {
   font-size: 36px;
   line-height: 44px;
@@ -167,13 +170,10 @@ h5 {
   font-weight: 400;
   text-transform: uppercase;
 }
-h1, h3, h4, h5, p {
-  margin-bottom: 22px;
-}
 
 /*
   ========================================
-  Links and media
+  Links
   ========================================
 */
 
@@ -187,9 +187,6 @@ a:hover {
 p a {
   border-bottom: 1px solid #dfe2e5;
 }
-iframe {
-  display: block;
-}
 
 /*
   ========================================
@@ -198,8 +195,12 @@ iframe {
 */
 
 .btn {
-  border: 0;
-  border-radius: 5px;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+       -o-border-radius: 5px;
+          border-radius: 5px;
+  color: #fff;
   cursor: pointer;
   display: inline-block;
   font-weight: 400;
@@ -208,8 +209,8 @@ iframe {
   text-transform: uppercase;
 }
 .btn-default {
+  border: 0;
   background: #648880;
-  color: #fff;
   padding: 11px 30px;
   font-size: 14px;
 }
@@ -218,7 +219,6 @@ iframe {
 }
 .btn-alt {
   border: 1px solid #fff;
-  color: #fff;
   padding: 10px 30px;
   font-size: 16px;
 }
@@ -279,7 +279,8 @@ iframe {
 .primary-footer {
   color: #648880;
   font-size: 14px;
-  padding: 44px 0;
+  padding-bottom: 44px;
+  padding-top: 44px;
 }
 .primary-footer small {
   float: left;
@@ -326,7 +327,11 @@ iframe {
   color: #a9b2b9;
 }
 .teaser img {
-  border-radius: 5px;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+       -o-border-radius: 5px;
+          border-radius: 5px;
   display: block;
   margin-bottom: 22px;
   max-width: 100%
@@ -360,12 +365,20 @@ iframe {
 }
 .speaker-info {
   border: 1px solid #dfe2e5;
-  border-radius: 5px;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+       -o-border-radius: 5px;
+          border-radius: 5px;
   margin-top: 44px;
   text-align: center;
 }
 .speaker-info img {
-  border-radius: 50%;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+       -o-border-radius: 50%;
+          border-radius: 50%;
   height: 110px;
   margin: -55px 0 22px 0;
   vertical-align: top;
@@ -460,7 +473,7 @@ iframe {
 input,
 select,
 textarea {
-  font: 300 16px/22px "Lato", "Open Sans" Verdana, Helvetica, sans-serif;
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .register {
   margin-bottom: 22px;
@@ -475,7 +488,11 @@ textarea {
 .register-group select,
 .register-group textarea {
   border: 1px solid #c6c9cc;
-  border-radius: 5px;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+       -o-border-radius: 5px;
+          border-radius: 5px;
   color: #888;
   display: block;
   margin: 5px 0 27px 0;
