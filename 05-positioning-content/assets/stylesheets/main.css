@@ -60,11 +60,31 @@ table {
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
-.container {
+.container,
+.grid {
   margin: 0 auto;
+  width: 960px;
+}
+.container {
   padding-left: 30px;
   padding-right: 30px;
-  width: 960px;
+}
+.grid,
+.col-1-3,
+.col-2-3 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.col-1-3,
+.col-2-3  {
+  display: inline-block;
+  vertical-align: top;
+}
+.col-1-3 {
+  width: 33.33%;
+}
+.col-2-3 {
+  width: 66.66%;
 }
 
 /*
