@@ -144,7 +144,7 @@ html {
   ========================================
 */
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4 {
   color: #648880;
 }
 h1, h3, h4, h5, p {
@@ -241,16 +241,15 @@ p a {
 }
 .logo {
   border-top: 4px solid #648880;
+  float: left;
   font-size: 48px;
   font-weight: 100;
   letter-spacing: .5px;
   line-height: 44px;
   padding: 40px 0 22px 0;
   text-transform: uppercase;
-  float: left;
 }
 .tagline {
-  color: #648880;
   margin: 66px 0 22px 0;
 }
 .tagline,
@@ -319,7 +318,6 @@ p a {
   text-align: center;
 }
 .hero h2 {
-  color: #648880;
   font-size: 36px;
   font-weight: 300;
 }
