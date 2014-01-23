@@ -53,10 +53,9 @@ table {
   ========================================
 */
 
-html {
+body {
   color: #888;
-  font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  /*font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /*
@@ -148,7 +147,7 @@ h5 {
   color: #a9b2b9;
   font-size: 14px;
   font-weight: 400;
-  /*text-transform: uppercase;*/
+  text-transform: uppercase;
 }
 
 /*
@@ -159,14 +158,14 @@ h5 {
 
 a {
   color: #648880;
-  /*text-decoration: none;*/
+  text-decoration: none;
 }
 a:hover {
   color: #a9b2b9;
 }
-/*p a {
+p a {
   border-bottom: 1px solid #dfe2e5;
-}*/
+}
 
 /*
   ========================================
@@ -181,14 +180,10 @@ a:hover {
        -o-border-radius: 5px;
           border-radius: 5px;
   display: inline-block;
-  font-weight: 400;
-  /*letter-spacing: .5px;*/
   margin: 0;
-  /*text-transform: uppercase;*/
 }
 .btn-alt {
   border: 1px solid #dfe2e5;
-  font-size: 16px;
   padding: 10px 30px;
 }
 
@@ -202,19 +197,19 @@ a:hover {
   border-top: 4px solid #648880;
   float: left;
   font-size: 48px;
-  /*font-weight: 100;*/
-  /*letter-spacing: .5px;*/
+  font-weight: 100;
+  letter-spacing: .5px;
   line-height: 44px;
   padding: 40px 0 22px 0;
-  /*text-transform: uppercase;*/
+  text-transform: uppercase;
 }
 .tagline {
   margin: 66px 0 22px 0;
 }
-/*.tagline,
+.tagline,
 .primary-nav {
   text-align: right;
-}*/
+}
 
 /*
   ========================================
@@ -232,9 +227,9 @@ a:hover {
   float: left;
   font-weight: 400;
 }
-/*.secondary-nav {
+.secondary-nav {
   text-align: right;
-}*/
+}
 
 /*
   ========================================
@@ -243,15 +238,16 @@ a:hover {
 */
 
 .hero {
-  font-size: 24px;
-  /*font-weight: 100;*/
   line-height: 44px;
   padding: 22px 80px 66px 80px;
-  /*text-align: center;*/
+  text-align: center;
 }
 .hero h2 {
   font-size: 36px;
-  /*font-weight: 300;*/
+}
+.hero p {
+  font-size: 24px;
+  font-weight: 100;
 }
 .teaser a:hover h3 {
   color: #a9b2b9;

@@ -53,7 +53,7 @@ table {
   ========================================
 */
 
-html {
+body {
   background: #293f50;
   color: #888;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -311,15 +311,16 @@ p a {
 
 .hero {
   color: #fff;
-  font-size: 24px;
-  font-weight: 100;
   line-height: 44px;
   padding: 22px 80px 66px 80px;
   text-align: center;
 }
 .hero h2 {
   font-size: 36px;
-  font-weight: 300;
+}
+.hero p {
+  font-size: 24px;
+  font-weight: 100;
 }
 .teaser a:hover h3 {
   color: #a9b2b9;
