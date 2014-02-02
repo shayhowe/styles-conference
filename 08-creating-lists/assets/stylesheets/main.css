@@ -330,3 +330,24 @@ p a {
 .teaser a:hover h3 {
   color: #a9b2b9;
 }
+
+/*
+  ========================================
+  Speakers
+  ========================================
+*/
+
+.speaker {
+  margin-bottom: 44px;
+}
+.speaker-info {
+  border: 1px solid #dfe2e5;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+       -o-border-radius: 5px;
+          border-radius: 5px;
+  margin-top: 44px;
+  padding: 22px 0;
+  text-align: center;
+}
