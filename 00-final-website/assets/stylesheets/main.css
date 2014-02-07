@@ -366,7 +366,7 @@ p a {
       -ms-border-radius: 5px;
        -o-border-radius: 5px;
           border-radius: 5px;
-  margin-top: 44px;
+  margin-top: 88px;
   padding-bottom: 22px;
   text-align: center;
 }
@@ -376,8 +376,8 @@ p a {
       -ms-border-radius: 50%;
        -o-border-radius: 50%;
           border-radius: 50%;
-  height: 110px;
-  margin: -55px 0 22px 0;
+  height: 152px;
+  margin: -110px 0 22px 0;
   vertical-align: top;
 }
 
@@ -451,6 +451,9 @@ p a {
 }
 .venue-hotel {
   margin-bottom: 22px;
+}
+.venue-map {
+  height: 264px;
 }
 
 /*

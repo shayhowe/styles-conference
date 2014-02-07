@@ -330,6 +330,16 @@ p a {
 .teaser a:hover h3 {
   color: #a9b2b9;
 }
+.teaser img {
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+       -o-border-radius: 5px;
+          border-radius: 5px;
+  display: block;
+  margin-bottom: 22px;
+  max-width: 100%
+}
 
 /*
   ========================================
@@ -347,7 +357,33 @@ p a {
       -ms-border-radius: 5px;
        -o-border-radius: 5px;
           border-radius: 5px;
-  margin-top: 44px;
-  padding: 22px 0;
+  margin-top: 88px;
+  padding-bottom: 22px;
   text-align: center;
 }
+.speaker-info img {
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+       -o-border-radius: 50%;
+          border-radius: 50%;
+  height: 152px;
+  margin: -110px 0 22px 0;
+  vertical-align: top;
+}
+
+/*
+  ========================================
+  Venue
+  ========================================
+*/
+
+/*.venue-theatre {
+  margin-bottom: 66px;
+}
+.venue-hotel {
+  margin-bottom: 22px;
+}
+.venue-map {
+  height: 264px;
+}*/
