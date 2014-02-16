@@ -149,6 +149,12 @@ h5 {
   font-weight: 400;
   text-transform: uppercase;
 }
+strong {
+  font-weight: 400;
+}
+em {
+  font-style: italic;
+}
 
 /*
   ========================================
