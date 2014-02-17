@@ -218,11 +218,7 @@ p a {
 */
 
 .btn {
-  -webkit-border-radius: 5px;
-     -moz-border-radius: 5px;
-      -ms-border-radius: 5px;
-       -o-border-radius: 5px;
-          border-radius: 5px;
+  border-radius: 5px;
   color: #fff;
   cursor: pointer;
   display: inline-block;
@@ -346,11 +342,7 @@ p a {
   color: #a9b2b9;
 }
 .teaser img {
-  -webkit-border-radius: 5px;
-     -moz-border-radius: 5px;
-      -ms-border-radius: 5px;
-       -o-border-radius: 5px;
-          border-radius: 5px;
+  border-radius: 5px;
   display: block;
   margin-bottom: 22px;
   max-width: 100%
@@ -367,21 +359,13 @@ p a {
 }
 .speaker-info {
   border: 1px solid #dfe2e5;
-  -webkit-border-radius: 5px;
-     -moz-border-radius: 5px;
-      -ms-border-radius: 5px;
-       -o-border-radius: 5px;
-          border-radius: 5px;
+  border-radius: 5px;
   margin-top: 88px;
   padding-bottom: 22px;
   text-align: center;
 }
 .speaker-info img {
-  -webkit-border-radius: 50%;
-     -moz-border-radius: 50%;
-      -ms-border-radius: 50%;
-       -o-border-radius: 50%;
-          border-radius: 50%;
+  border-radius: 50%;
   height: 130px;
   margin: -66px 0 22px 0;
   vertical-align: top;
@@ -430,11 +414,7 @@ textarea {
 .register-group select,
 .register-group textarea {
   border: 1px solid #c6c9cc;
-  -webkit-border-radius: 5px;
-     -moz-border-radius: 5px;
-      -ms-border-radius: 5px;
-       -o-border-radius: 5px;
-          border-radius: 5px;
+  border-radius: 5px;
   color: #888;
   display: block;
   margin: 5px 0 27px 0;
