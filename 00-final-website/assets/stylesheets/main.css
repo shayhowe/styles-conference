@@ -472,18 +472,17 @@ p a {
   list-style: square;
   margin: 0 0 22px 30px;
 }
+form {
+  margin-bottom: 22px;
+}
 input,
 select,
 textarea {
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.register {
-  margin-bottom: 22px;
-}
 .register-group label {
   color: #648880;
   cursor: pointer;
-  display: block;
   font-weight: 400;
 }
 .register-group input,
