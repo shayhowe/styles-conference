@@ -377,11 +377,11 @@ p a {
   ========================================
 */
 
-.schedule {
+table {
   margin-bottom: 44px;
   width: 100%;
 }
-.schedule:last-child {
+table:last-child {
   margin-bottom: 0;
 }
 th,
@@ -392,6 +392,10 @@ td {
 th {
   padding-right: 45px;
   text-align: right;
+  width: 20%;
+}
+td {
+  width: 40%;
 }
 thead {
   line-height: 44px;
@@ -406,12 +410,10 @@ tbody th {
   font-weight: 400;
   padding-top: 22px;
   text-transform: uppercase;
-  width: 20%;
 }
 tbody td {
   border-top: 1px solid #dfe2e5;
   padding-top: 21px;
-  width: 40%;
 }
 tbody td:first-of-type {
   padding-right: 15px;
@@ -423,13 +425,10 @@ tbody td:only-of-type {
   padding-left: 0;
   padding-right: 0;
 }
-.schedule a {
+table a {
   color: #888;
 }
-.schedule a:hover {
-  color: #a9b2b9;
-}
-.schedule h4 {
+table h4 {
   margin-bottom: 0;
 }
 .schedule-offset {
