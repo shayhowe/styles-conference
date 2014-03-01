@@ -136,7 +136,6 @@ body {
   background: #cbe2c1;
   background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
   background:    -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
-  background:      -o-linear-gradient(to right, #a1d3b0, #f6f1d3);
   background:         linear-gradient(to right, #a1d3b0, #f6f1d3);
   padding: 44px 0 22px 0;
 }
@@ -211,6 +210,14 @@ a:hover {
 p a {
   border-bottom: 1px solid #dfe2e5;
 }
+.primary-header a,
+.primary-footer a {
+  color: #fff;
+}
+.primary-header a:hover,
+.primary-footer a:hover {
+  color: #648880;
+}
 
 /*
   ========================================
@@ -252,12 +259,6 @@ p a {
   ========================================
 */
 
-.primary-header a {
-  color: #fff;
-}
-.primary-header a:hover {
-  color: #648880;
-}
 .logo {
   border-top: 4px solid #648880;
   float: left;
@@ -290,12 +291,6 @@ p a {
   font-size: 14px;
   padding-bottom: 44px;
   padding-top: 44px;
-}
-.primary-footer a {
-  color: #fff;
-}
-.primary-footer a:hover {
-  color: #648880;
 }
 .primary-footer small {
   float: left;
